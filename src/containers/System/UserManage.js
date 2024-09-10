@@ -45,8 +45,10 @@ class UserManage extends Component {
                                         <td>{item.firstName}</td>
                                         <td>{item.lastName}</td>
                                         <td>{item.address}</td>
-                                        <button className='btn-edit'><i class="fas fa-pencil-alt"></i></button>
-                                        <button className='btn-delete'><i class="fas fa-trash"></i></button>
+                                        <td>
+                                            <button className='btn-edit'><i class="fas fa-pencil-alt"></i></button>
+                                            <button className='btn-delete'><i class="fas fa-trash"></i></button>
+                                        </td>
                                     </tr>
                                 )
                             })
